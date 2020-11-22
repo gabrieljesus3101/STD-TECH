@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <!-- Font Awesome kit script -->
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+
+    <!-- Google Fonts Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/css-3.png">
+
+    <!-- Custom styles path -->
+    <link rel="stylesheet" href="css/teste.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="content">
+            <div class="img-container">
+                <img class="image" src="img/likes.png" alt="Cadastro">
+            </div>
+            <div class="login-container">
+                <form action="php/register.php" method="POST">
+                    <h1>Cadastre-se</h1>
+                    <p>Entrar com:</p>
+                    <div class="social">
+                        <img src="img/google.png">
+                        <img src="img/facebook.png">
+                        <img src="img/twitter.png">
+                    </div>
+                    <div class="input-div one">
+                        <div class="i">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div>
+                            <h5>Nome completo</h5>
+                            <input class="input" type="text">
+                        </div>
+                    </div>
+                    <div class="input-div one">
+                        <div class="i">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h5>E-mail</h5>
+                            <input class="input" type="email">
+                        </div>
+                    </div>
+                    <div class="input-div two">
+                        <div class="i">
+                            <i class="fas fa-key"></i>
+                        </div>
+                        <div>
+                            <h5>Senha</h5>
+                            <input class="input" type="password">
+                        </div>
+                    </div>
+                    <div class="input-div two">
+                        <div class="i">
+                            <i class="fas fa-key"></i>
+                        </div>
+                        <div>
+                            <h5>Confirmar senha</h5>
+                            <input class="input" type="password">
+                        </div>
+                    </div>
+                    <div class="terms">
+                        <div class="remember">
+                            <input type="checkbox">
+                            <label>Li e concordo com os</label>
+                        </div>
+                        <a href="#">termos de uso </a>
+                    </div>
+                    <button class="btn hvr-sweep-to-right" type="button">Cadastrar</button>
+                    <div class="account">
+                        <p>Já possui conta ?</p>
+                        <a href="index.html">Entrar</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/teste.js"></script>
+</body>
+
+</html>
